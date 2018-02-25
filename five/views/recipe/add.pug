@@ -1,0 +1,21 @@
+extends ../layout.pug
+
+block content
+    h2  Add recipe
+
+    form(method="post" enctype="multipart/form-data")
+        label Your name:
+        br
+        input(type="text", name="name")
+        br
+        br
+        label Recipe description:
+        br
+        textarea(name="description")
+        br
+        label Image
+        br
+        input(type="file" accept=".png,.jpg,.jpeg" name="image")
+        br
+        
+        input(type="submit" value="Send")

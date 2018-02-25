@@ -1,0 +1,9 @@
+{
+  "name": "chetiri",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mongodb": "2.2.33",
+    "mongoose": "^4.13.9"
+  }
+}

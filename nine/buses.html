@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #stopName{
+            font-size: 2em;
+            font-weight: 400;
+            padding: 0.75em;
+            background-color: aquamarine;
+        }
+    </style>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./scripts/buses.js"></script>
+</head>
+
+<body>
+    <div id="stopInfo">
+        <div>
+            <label for="stopId">Stop ID: </label>
+            <input type="text" id="stopId">
+            <input type="button" id="submit" value="Check" onclick="getInfo()">
+        </div>
+        <div id="result">
+            <div id="stopName"></div>
+            <ul id="buses"></ul>
+        </div>
+    </div>
+</body>
+
+</html>

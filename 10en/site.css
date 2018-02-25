@@ -1,0 +1,10 @@
+.scaleUp{
+    /* transform: scale(1.7); */
+    border: 5px solid black
+}
+
+.scaleDown{
+    /* transform: scale(1);  */
+    border: 1px solid black
+    
+}
